@@ -1,0 +1,42 @@
+Your_Library=[] 
+Wish_list=[] 
+All_books=[]
+Update_book=[] 
+Own_book=input("Enter the name of a book you own?\n")
+Your_Libarey. append("Own_book") 
+Anther_book=input("Enter anther name of a book you own? or press 'Enter' to skip" ) 
+if Anther_book:
+Your_Libarey. append("Anther_book") 
+print(f"You library contain are :{Your_Library} ")
+else:
+print(f"Your contain are :{Your_Library}") 
+Future_book=input("Enter the name book you wish to own in futureor " ) 
+Wish_list. append("Future_book")  
+Anther_Future_book=input("Enter the name  anther book you wish to own to have or press 'Enter' to skip" )
+ if Anther_Future_book:
+  Wish_list. append("Anther_Future_book") 
+ print(f"You wish list contain are :{Wish_list} ")
+ else:
+ print(f"You wish list contain are :{Wish_list} ")
+ Have_book=input("Enter the name of  book from wish list you have  actully  or press 'Enter' to skip" )
+  if Have_book:
+  All_books= Your_Library. extended("Wish_list") 
+  print(f"Update library:{All_books})
+  Update_book=Wish_list. remove("Have_book" )
+  print(f"update wish list:{Update_book} ")
+  else:
+      print
+  
+Tabaro_book=input("Enter the name   book you wish to tabaro or press 'Enter' to skip" )
+Tabaro =All_books. remove(Tabaro_book) 
+ if Anther_Future_book:
+  Wish_list. append("Anther_Future_book") 
+ print(f"You wish list contain are :{Wish_list} ")
+    
+   
+    
+    
+    
+    
+else:
+    print("
